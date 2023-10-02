@@ -42,17 +42,17 @@ require_once('../../shared/config/tce_config.php');
 /**
  * Default site name.
  */
-define('K_SITE_TITLE', 'TCExam');
+define('K_SITE_TITLE', 'CPUExam');
 
 /**
  * Default site description.
  */
-define('K_SITE_DESCRIPTION', 'TCExam by Tecnick.com');
+define('K_SITE_DESCRIPTION', 'CPUExam by Vipul and Aman');
 
 /**
  * Default site author.
  */
-define('K_SITE_AUTHOR', 'Nicola Asuni - Tecnick.com LTD');
+define('K_SITE_AUTHOR', 'Vipul and Aman');
 
 /**
  * Default html reply-to meta tag.
@@ -62,7 +62,7 @@ define('K_SITE_REPLY', ''); //
 /**
  * Default keywords.
  */
-define('K_SITE_KEYWORDS', 'TCExam, eExam, e-exam, web, exam');
+define('K_SITE_KEYWORDS', 'CPUExam, eExam, e-exam, web, exam');
 
 /**
  * Path to default html icon.
@@ -72,7 +72,7 @@ define('K_SITE_ICON', '../../favicon.ico');
 /**
  * Theme for the public area
  */
-define('K_PUBLIC_THEME', 'default');
+define('K_PUBLIC_THEME', 'picoman');
 
 /**
  * Path to public CSS stylesheet for LTR languages.
