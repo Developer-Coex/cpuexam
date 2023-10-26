@@ -42,7 +42,7 @@ define('K_LANGUAGE', 'en');
 /**
  * If true, display a language selector.
  */
-define('K_LANGUAGE_SELECTOR', true);
+define('K_LANGUAGE_SELECTOR', false);
 
 /**
  * Defines a serialized array of available languages.
@@ -126,12 +126,12 @@ define('K_ANSWER_TEXTAREA_ROWS', 15);
 /**
  * If true enable explanation field for questions.
  */
-define('K_ENABLE_QUESTION_EXPLANATION', true);
+define('K_ENABLE_QUESTION_EXPLANATION', false);
 
 /**
  * If true enable explanation field for answers.
  */
-define('K_ENABLE_ANSWER_EXPLANATION', true);
+define('K_ENABLE_ANSWER_EXPLANATION', false);
 
 /**
  * If true display test description before executing the test.
