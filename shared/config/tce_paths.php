@@ -32,10 +32,12 @@
  * Host URL (e.g.: "http://www.yoursite.com").
  */
 define('K_PATH_HOST', 'http://localhost');
+define('K_PATH_HOST', 'http://localhost');
 
 /**
  * Relative URL where this program is installed (e.g.: "/").
  */
+define('K_PATH_TCEXAM', '/cpuexam/');
 define('K_PATH_TCEXAM', '/cpuexam/');
 
 /**

@@ -38,10 +38,12 @@ function F_getUserTests()
     require_once('../../shared/code/tce_functions_tcecode.php');
     require_once('../../shared/code/tce_functions_test_stats.php');
     global $db, $l;
+    date_default_timezone_set('Asia/Calcutta');
     $user_id = intval($_SESSION['session_user_id']);
     $str = ''; // temp string
     // get current date-time
     $current_time = date(K_TIMESTAMP_FORMAT);
+    $str .= '<script>console.log("'.$current_time.'")</script>';
     // select tests hiding old repeated tests
     $sql = 'SELECT * FROM '.K_TABLE_TESTS.' WHERE (test_id IN (SELECT tsubset_test_id FROM '.K_TABLE_TEST_SUBJSET.') AND (test_begin_time < \''.$current_time.'\')';
     if (K_HIDE_EXPIRED_TESTS) {

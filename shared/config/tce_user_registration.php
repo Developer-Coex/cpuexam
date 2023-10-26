@@ -37,7 +37,7 @@ define('K_USRREG_ENABLED', true);
 /**
  * If true requires email confirmation.
  */
-define('K_USRREG_EMAIL_CONFIRM', true);
+define('K_USRREG_EMAIL_CONFIRM', false);
 
 /**
  * Default user group ID for registered user.
@@ -67,7 +67,7 @@ define('K_USRREG_PASSWORD_RE', '^(.{8,})$');
  * 2 = required field;
  */
 $regfields = array(
-    'user_email' => 2,
+    'user_email' => 1,
     'user_regnumber' => 1,
     'user_firstname' => 2,
     'user_lastname' => 2,
@@ -75,7 +75,7 @@ $regfields = array(
     'user_birthplace' => 1,
     'user_ssn' => 1,
     'user_groups' => 1,
-    'user_agreement' => 2
+    'user_agreement' => 1
 );
 
 //============================================================+
