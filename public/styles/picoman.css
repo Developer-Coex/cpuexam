@@ -5,10 +5,15 @@
  * Slim version example
  * You can export only the modules you need
  */
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url(../../cpu/EuclidCircularB-Regular.ttf) format("truetype");
+}
 :root {
-  --text-font: "Euclid Circular B Medium", "Roboto", "Ubuntu", "Cantarell",
-    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  --text-font: "Euclid Circular B", "Roboto", "Ubuntu", "Cantarell", "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
   --titles-font: var(--text-font);
   --code-font: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace",
     "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace,
